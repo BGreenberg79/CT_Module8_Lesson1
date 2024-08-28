@@ -1,0 +1,46 @@
+/* Task 1.1 CSS Styling for Chocolate Chip cookie recipe */
+h1 {font-family: "Lucida Handwriting", cursive; font-style: italic; font-size: 35px; text-align: center; color: white;}
+
+h2 {font-family: "garamond", serif; font-style: italic; font-size: 28px;}
+
+ul > li {font-family: "Papyrus", fantasy; font-style: normal; font-size: 18px;}
+
+ol > li{font-family: "Helvetica", sans-serif; font-style: normal; font-size: 18px;}
+/* Sets font-family, style, and size for recipe title, headings and ingredient and steps lists */
+/* Child combinator selector */
+
+header > h1 {background-color: #7d3900; margin: 10px; border: 2px, black, solid; padding: 10px;}
+
+footer {background-color: #deac50; border: 2px, black, solid; padding: 10px; margin: 10px; color: #4B0081}
+/* Sets background color for header and footer */
+
+div {border: 4px, dotted, black; margin: 15px; padding: 20px; background-color: rgba(212, 212, 212, 0.975); color: rgb(13, 12, 12)}
+
+h3.mid {text-align: center; font-size: 25px;}
+/* class selector */
+
+#emphasize {font-weight: 800; font-size: 20px;}
+/* ID selector */
+
+p {margin: 17px;}
+
+/* Set borders, margin, and padding a.k.a box model */
+/* Border around recipe and ingredients to seperate it from rest of the page */
+/* Alter backgrounds and text colors throughout different sections of html doc */
+
+a:hover {color:coral;}
+
+a:active {color:lime;}
+
+/* Hover and active effects for the link to our recipe changing text color */
+
+button:hover {color: red; font-weight:900;}
+
+/* 2.2 psuedo class hover elements for button to call attention to it being clicked */
+
+fieldset {border-radius: 20px; padding: 35px}
+
+input[type=submit]:hover {color: #03cecb; font-weight:900; background-color: #2c2b2b}
+input[type=reset]:hover {color: #03cecb; font-weight:900; background-color: #2c2b2b;}
+
+/* 2.3 Additional styling for user submission form */
